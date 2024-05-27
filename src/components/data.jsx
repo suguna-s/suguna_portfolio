@@ -55,7 +55,7 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    image: 'src/assets/coffee-hub.png',
+    image: 'images/coffee-hub.png',
     url: 'https://coffeehub-react.netlify.app/',
     github: 'https://github.com/suguna-s/coffeehub',
     title: 'Coffee Hub',
@@ -80,7 +80,7 @@ export const projects = [
   },
   {
     id: 2,
-    image: 'src/assets/grocery-list.png',
+    image: 'images/grocery-list.png',
     url: 'https://grocery-listreact.netlify.app/',
     github: 'https://github.com/suguna-s/grocery-list',
     title: 'Grocery List',
