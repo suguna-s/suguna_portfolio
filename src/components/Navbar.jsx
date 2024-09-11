@@ -9,7 +9,7 @@ const Navbar = () => {
             <a
               href={link.href}
               key={link.id}
-              className="capitalize tracking-widest text-xl hover:underline decoration-solid duration-300"
+              className="capitalize tracking-wider text-xl hover:underline decoration-solid duration-300"
             >
               {link.text}
             </a>
