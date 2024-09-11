@@ -5,7 +5,7 @@ import { MdEmail } from 'react-icons/md';
 const Hero = () => {
   return (
     <div className="bg-sky-200 py-40 px-16" id="home">
-      <div className=" text-center flex flex-col  justify-center gap-y-6 tracking-widest">
+      <div className=" text-center mx-auto max-w-7xl flex flex-col justify-center gap-y-6 tracking-widest">
         <p>
           <span className="text-5xl font-medium">Hello, </span>
           <span className="text-5xl font-medium">I'am Suguna Satyavolu</span>
