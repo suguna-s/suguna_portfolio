@@ -3,9 +3,12 @@ import {
   FaCss3Alt,
   FaJs,
   FaReact,
+  FaNode,
+  FaPython,
   FaGithubSquare,
 } from 'react-icons/fa';
 import { SiMongodb, SiExpress } from 'react-icons/si';
+import { TbSql } from 'react-icons/tb';
 
 export const links = [
   { id: 1, href: '#home', text: 'home' },
@@ -37,16 +40,31 @@ export const skills = [
   },
   {
     id: 5,
+    title: 'Node',
+    icon: <FaNode className="h-16 w-16 text-cyan-500" />,
+  },
+  {
+    id: 6,
     title: 'Express',
     icon: <SiExpress className="h-16 w-16 text-cyan-500" />,
   },
   {
-    id: 6,
+    id: 7,
     title: 'MongoDB',
     icon: <SiMongodb className="h-16 w-16 text-cyan-500" />,
   },
   {
-    id: 7,
+    id: 8,
+    title: 'Python',
+    icon: <FaPython className="h-16 w-16 text-cyan-500" />,
+  },
+  {
+    id: 9,
+    title: 'SQL',
+    icon: <TbSql className="h-16 w-16 text-cyan-500" />,
+  },
+  {
+    id: 10,
     title: 'Github',
     icon: <FaGithubSquare className="h-16 w-16 text-cyan-500" />,
   },

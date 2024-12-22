@@ -10,7 +10,7 @@ const Hero = () => {
           <span className="text-5xl font-medium">Hello, </span>
           <span className="text-5xl font-medium">I'am Suguna Satyavolu</span>
         </p>
-        <p className="text-3xl font-semibold">Frontend Developer</p>
+        <p className="text-3xl font-semibold">Full Stack Developer</p>
         <p className="text-2xl mx-auto max-w-3xl py-8">
           Welcome to my portfolio! Enter with curiosity, leave with inspiration.
           Explore my work, crafted with passion and purpose. Whether you're here

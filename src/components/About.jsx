@@ -9,11 +9,15 @@ const About = () => {
             About Me
           </h3>
           <p className="text-2xl py-16">
-            I'm Front End focused Web Developer who has recently upskilled from
-            Nucamp's Full Stack Web and Mobile Development Bootcamp. I have a
-            strong foundation in Front End technologies, including HTML, CSS,
-            JavaScript and React. I'm passionate about creating dynamic,
-            responsive applications and continuously learning new technologies.
+            I am a Full Stack Web Developer with a strong foundation in
+            front-end technologies like HTML, CSS, JavaScript, and React,
+            complemented by back-end skills gained through Nucamp's Full Stack
+            Web and Mobile Development Bootcamp. I am passionate about building
+            dynamic, responsive, and user-friendly applications while leveraging
+            my back-end knowledge to create seamless, robust solutions. My
+            continuous drive for learning ensures I stay updated with the latest
+            technologies, enabling me to deliver impactful, modern web
+            experiences across the full development stack.
           </p>
         </article>
         <article>
