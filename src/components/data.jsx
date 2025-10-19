@@ -40,7 +40,7 @@ export const skills = [
   },
   {
     id: 5,
-    title: 'Node',
+    title: 'Node.js',
     icon: <FaNode className="h-16 w-16 text-cyan-500" />,
   },
   {
@@ -55,16 +55,11 @@ export const skills = [
   },
   {
     id: 8,
-    title: 'Python',
-    icon: <FaPython className="h-16 w-16 text-cyan-500" />,
-  },
-  {
-    id: 9,
     title: 'SQL',
     icon: <TbSql className="h-16 w-16 text-cyan-500" />,
   },
   {
-    id: 10,
+    id: 9,
     title: 'Github',
     icon: <FaGithubSquare className="h-16 w-16 text-cyan-500" />,
   },
@@ -73,28 +68,33 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    image: 'images/coffee-hub.png',
-    url: 'https://coffeehub-react.netlify.app/',
-    github: 'https://github.com/suguna-s/coffeehub',
+    image: 'images/projectjobify.png',
+    url: 'https://projectjobify.onrender.com/',
+    github: 'https://github.com/suguna-s/projectjobify',
     title: 'Coffee Hub',
     techstack: [
       {
         id: 1,
-        title: 'HTML',
-        icon: <FaHtml5 className="h-8 w-8 text-cyan-500" />,
-      },
-      {
-        id: 2,
-        title: 'CSS',
-        icon: <FaCss3Alt className="h-8 w-8 text-cyan-500" />,
-      },
-      {
-        id: 3,
         title: 'React',
         icon: <FaReact className="h-8 w-8 text-cyan-500" />,
       },
+      {
+        id: 2,
+        title: 'Node.js',
+        icon: <FaNode className="h-16 w-16 text-cyan-500" />,
+      },
+      {
+        id: 3,
+        title: 'Express',
+        icon: <SiExpress className="h-16 w-16 text-cyan-500" />,
+      },
+      {
+        id: 4,
+        title: 'MongoDB',
+        icon: <SiMongodb className="h-16 w-16 text-cyan-500" />,
+      },
     ],
-    text: 'CoffeeHub is your go-to destination for delightfully absurd and entirely fictional information about coffee! Dive into a world where coffee beans have personalities, brewing methods involve arcane rituals, and coffee culture is a blend of fantasy and fun.',
+    text: 'A full-stack job tracking app built with the MERN stack. Jobify lets users add, edit and monitor job applications through a secure dashboard with analytics and charts to visualize progress.',
   },
   {
     id: 2,
