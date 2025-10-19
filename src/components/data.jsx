@@ -71,7 +71,7 @@ export const projects = [
     image: 'images/projectjobify.png',
     url: 'https://projectjobify.onrender.com/',
     github: 'https://github.com/suguna-s/projectjobify',
-    title: 'Coffee Hub',
+    title: 'Jobify',
     techstack: [
       {
         id: 1,
@@ -81,17 +81,17 @@ export const projects = [
       {
         id: 2,
         title: 'Node.js',
-        icon: <FaNode className="h-16 w-16 text-cyan-500" />,
+        icon: <FaNode className="h-8 w-8 text-cyan-500" />,
       },
       {
         id: 3,
         title: 'Express',
-        icon: <SiExpress className="h-16 w-16 text-cyan-500" />,
+        icon: <SiExpress className="h-8 w-8 text-cyan-500" />,
       },
       {
         id: 4,
         title: 'MongoDB',
-        icon: <SiMongodb className="h-16 w-16 text-cyan-500" />,
+        icon: <SiMongodb className="h-8 w-8 text-cyan-500" />,
       },
     ],
     text: 'A full-stack job tracking app built with the MERN stack. Jobify lets users add, edit and monitor job applications through a secure dashboard with analytics and charts to visualize progress.',
